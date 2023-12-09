@@ -9,16 +9,16 @@ namespace Ejercicio_14_Tema_2
 
         private void BotonMayor_Click(object sender, EventArgs e)
         {
-            double Num1;
-            double Num2;
+            double Num1RMB2324;
+            double Num2RMB2324; //!? Variables cambiadas de nombre
             bool Resultado;
 
             try
             {
-                Num1 = double.Parse(txtNum1.Text);
-                Num2 = double.Parse(txtNum2.Text);
+                Num1RMB2324 = double.Parse(txtNum1.Text);
+                Num2RMB2324 = double.Parse(txtNum2.Text);
 
-                Resultado = Num1 < Num2;
+                Resultado = Num1RMB2324 < Num2RMB2324;
 
                 TrueFalseLabel.Text = Resultado.ToString();
             }
