@@ -18,7 +18,8 @@ namespace Ejercicio_14_Tema_2
                 Num1RMB2324 = double.Parse(txtNum1.Text);
                 Num2RMB2324 = double.Parse(txtNum2.Text);
 
-                Resultado = Num1RMB2324 < Num2RMB2324;
+                //!? Cambiamos símbolo < por >
+                Resultado = Num1RMB2324 > Num2RMB2324;
 
                 TrueFalseLabel.Text = Resultado.ToString();
             }
@@ -40,7 +41,8 @@ namespace Ejercicio_14_Tema_2
                 Num1 = double.Parse(txtNum1.Text);
                 Num2 = double.Parse(txtNum2.Text);
 
-                Resultado = Num2 < Num1;
+                //!? Cambiamos las variables de posición
+                Resultado = Num1 < Num2;
 
                 TrueFalseLabel.Text = Resultado.ToString();
             }
